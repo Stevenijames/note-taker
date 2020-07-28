@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 
 app.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname, "public/notes.html"));
+    res.sendFile(path.join(__dirname, "note-taker/public/notes.html"));
 });
 
 
@@ -62,7 +62,7 @@ app.delete("/api/notes/:id", function (req, res) {
 });
 
 app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "public/index.html"));
+    res.sendFile(path.join(__dirname, "note-taker/public/index.html"));
 });
 
 app.listen(PORT, function () {
