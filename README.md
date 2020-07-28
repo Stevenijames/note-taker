@@ -22,5 +22,5 @@
 * Created by Steven P. Ijames
 
 ### Link Deployed
-* 
+* Heroku Deployed App - https://whispering-woodland-00100.herokuapp.com/
 * GitHub Repository - https://github.com/Stevenijames/note-taker
